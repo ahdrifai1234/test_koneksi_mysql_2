@@ -23,6 +23,7 @@ Partial Class FormLogin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         GroupBox1 = New GroupBox()
+        txt_lihat_pass = New CheckBox()
         btn_register = New Button()
         btn_login = New Button()
         txt_password = New TextBox()
@@ -30,7 +31,6 @@ Partial Class FormLogin
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
-        txt_lihat_pass = New CheckBox()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -50,6 +50,16 @@ Partial Class FormLogin
         GroupBox1.Size = New Size(503, 478)
         GroupBox1.TabIndex = 0
         GroupBox1.TabStop = False
+        ' 
+        ' txt_lihat_pass
+        ' 
+        txt_lihat_pass.AutoSize = True
+        txt_lihat_pass.Location = New Point(154, 350)
+        txt_lihat_pass.Name = "txt_lihat_pass"
+        txt_lihat_pass.Size = New Size(128, 24)
+        txt_lihat_pass.TabIndex = 5
+        txt_lihat_pass.Text = "Lihat Password"
+        txt_lihat_pass.UseVisualStyleBackColor = True
         ' 
         ' btn_register
         ' 
@@ -111,25 +121,14 @@ Partial Class FormLogin
         Label1.TabIndex = 0
         Label1.Text = "Selamat Datang Kembali"
         ' 
-        ' txt_lihat_pass
-        ' 
-        txt_lihat_pass.AutoSize = True
-        txt_lihat_pass.Location = New Point(154, 350)
-        txt_lihat_pass.Name = "txt_lihat_pass"
-        txt_lihat_pass.Size = New Size(128, 24)
-        txt_lihat_pass.TabIndex = 5
-        txt_lihat_pass.Text = "Lihat Password"
-        txt_lihat_pass.UseVisualStyleBackColor = True
-        ' 
         ' FormLogin
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlDark
         ClientSize = New Size(800, 698)
         Controls.Add(GroupBox1)
         MaximizeBox = False
-        MinimizeBox = False
         Name = "FormLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormLogin"

@@ -22,3 +22,6 @@ C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\
 C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.Resources.resources
 C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.FormLogin.resources
 C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.FormUtama.resources
+C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.FormTransaksiMasuk.resources
+C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.FormBarang.resources
+C:\Users\AHMAD RIFAI\source\repos\test_koneksi_mysql_2\obj\Debug\net8.0-windows\test_koneksi_mysql_2.FormTransaksiKeluar.resources

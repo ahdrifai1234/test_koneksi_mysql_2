@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="FormUtama.vb">
+    <Compile Update="FormTransaksiKeluar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTransaksiMasuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormBarang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUtama.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

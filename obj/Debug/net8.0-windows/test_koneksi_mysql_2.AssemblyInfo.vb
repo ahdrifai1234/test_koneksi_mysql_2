@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("test_koneksi_mysql_2"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0963be73c781c568e4b15ff15b44753378893eb"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b68506b51173b3f5152ff199570db02770008f7f"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("test_koneksi_mysql_2"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("test_koneksi_mysql_2"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
