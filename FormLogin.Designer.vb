@@ -30,11 +30,14 @@ Partial Class FormLogin
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
+        txt_lihat_pass = New CheckBox()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.BackColor = SystemColors.ActiveCaption
+        GroupBox1.Controls.Add(txt_lihat_pass)
         GroupBox1.Controls.Add(btn_register)
         GroupBox1.Controls.Add(btn_login)
         GroupBox1.Controls.Add(txt_password)
@@ -50,7 +53,7 @@ Partial Class FormLogin
         ' 
         ' btn_register
         ' 
-        btn_register.Location = New Point(336, 371)
+        btn_register.Location = New Point(336, 391)
         btn_register.Name = "btn_register"
         btn_register.Size = New Size(96, 40)
         btn_register.TabIndex = 4
@@ -59,7 +62,7 @@ Partial Class FormLogin
         ' 
         ' btn_login
         ' 
-        btn_login.Location = New Point(154, 371)
+        btn_login.Location = New Point(154, 391)
         btn_login.Name = "btn_login"
         btn_login.Size = New Size(167, 40)
         btn_login.TabIndex = 3
@@ -108,12 +111,25 @@ Partial Class FormLogin
         Label1.TabIndex = 0
         Label1.Text = "Selamat Datang Kembali"
         ' 
+        ' txt_lihat_pass
+        ' 
+        txt_lihat_pass.AutoSize = True
+        txt_lihat_pass.Location = New Point(154, 350)
+        txt_lihat_pass.Name = "txt_lihat_pass"
+        txt_lihat_pass.Size = New Size(128, 24)
+        txt_lihat_pass.TabIndex = 5
+        txt_lihat_pass.Text = "Lihat Password"
+        txt_lihat_pass.UseVisualStyleBackColor = True
+        ' 
         ' FormLogin
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ControlDark
         ClientSize = New Size(800, 698)
         Controls.Add(GroupBox1)
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "FormLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormLogin"
@@ -130,4 +146,5 @@ Partial Class FormLogin
     Friend WithEvents Label1 As Label
     Friend WithEvents btn_login As Button
     Friend WithEvents btn_register As Button
+    Friend WithEvents txt_lihat_pass As CheckBox
 End Class

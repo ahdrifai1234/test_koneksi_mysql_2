@@ -1,6 +1,6 @@
 ﻿Imports MySqlConnector
 
-Public Class Form1
+Public Class FormUtama
 
     Dim Conn As MySqlConnection
     Dim MyDB As String

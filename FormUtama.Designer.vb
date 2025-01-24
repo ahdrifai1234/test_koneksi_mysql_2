@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class FormUtama
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -132,7 +132,7 @@ Partial Class Form1
         Label1.BackColor = SystemColors.ActiveBorder
         Label1.BorderStyle = BorderStyle.Fixed3D
         Label1.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(184, 50)
+        Label1.Location = New Point(184, 65)
         Label1.Name = "Label1"
         Label1.Size = New Size(495, 40)
         Label1.TabIndex = 4
@@ -280,11 +280,12 @@ Partial Class Form1
         ' MenuStrip1
         ' 
         MenuStrip1.BackColor = SystemColors.ButtonShadow
+        MenuStrip1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         MenuStrip1.ImageScalingSize = New Size(20, 20)
         MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, LoginToolStripMenuItem, TransaksiToolStripMenuItem, LaporanToolStripMenuItem, UtilityToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(1169, 28)
+        MenuStrip1.Size = New Size(869, 31)
         MenuStrip1.TabIndex = 14
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -292,127 +293,127 @@ Partial Class Form1
         ' 
         FileToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LoginToolStripMenuItem1, LogoutToolStripMenuItem, ToolStripMenuItem1, ExiToolStripMenuItem})
         FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        FileToolStripMenuItem.Size = New Size(46, 24)
+        FileToolStripMenuItem.Size = New Size(52, 27)
         FileToolStripMenuItem.Text = "File"
         ' 
         ' LoginToolStripMenuItem1
         ' 
         LoginToolStripMenuItem1.Name = "LoginToolStripMenuItem1"
         LoginToolStripMenuItem1.ShortcutKeys = Keys.F5
-        LoginToolStripMenuItem1.Size = New Size(224, 26)
+        LoginToolStripMenuItem1.Size = New Size(168, 28)
         LoginToolStripMenuItem1.Text = "Login"
         ' 
         ' LogoutToolStripMenuItem
         ' 
         LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        LogoutToolStripMenuItem.Size = New Size(224, 26)
+        LogoutToolStripMenuItem.Size = New Size(168, 28)
         LogoutToolStripMenuItem.Text = "Logout"
         ' 
         ' ToolStripMenuItem1
         ' 
         ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        ToolStripMenuItem1.Size = New Size(221, 6)
+        ToolStripMenuItem1.Size = New Size(165, 6)
         ' 
         ' ExiToolStripMenuItem
         ' 
         ExiToolStripMenuItem.Name = "ExiToolStripMenuItem"
-        ExiToolStripMenuItem.Size = New Size(224, 26)
+        ExiToolStripMenuItem.Size = New Size(168, 28)
         ExiToolStripMenuItem.Text = "Exit"
         ' 
         ' LoginToolStripMenuItem
         ' 
         LoginToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {UserToolStripMenuItem})
         LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        LoginToolStripMenuItem.Size = New Size(68, 24)
+        LoginToolStripMenuItem.Size = New Size(79, 27)
         LoginToolStripMenuItem.Text = "Master"
         ' 
         ' UserToolStripMenuItem
         ' 
         UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        UserToolStripMenuItem.Size = New Size(121, 26)
+        UserToolStripMenuItem.Size = New Size(129, 28)
         UserToolStripMenuItem.Text = "User"
         ' 
         ' TransaksiToolStripMenuItem
         ' 
         TransaksiToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {DataProdukToolStripMenuItem, ProdukMasukToolStripMenuItem, ProdukKeluarpenjualanToolStripMenuItem})
         TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
-        TransaksiToolStripMenuItem.Size = New Size(82, 24)
+        TransaksiToolStripMenuItem.Size = New Size(97, 27)
         TransaksiToolStripMenuItem.Text = "Transaksi"
         ' 
         ' DataProdukToolStripMenuItem
         ' 
         DataProdukToolStripMenuItem.Name = "DataProdukToolStripMenuItem"
-        DataProdukToolStripMenuItem.Size = New Size(269, 26)
+        DataProdukToolStripMenuItem.Size = New Size(311, 28)
         DataProdukToolStripMenuItem.Text = "Data Produk"
         ' 
         ' ProdukMasukToolStripMenuItem
         ' 
         ProdukMasukToolStripMenuItem.Name = "ProdukMasukToolStripMenuItem"
-        ProdukMasukToolStripMenuItem.Size = New Size(269, 26)
+        ProdukMasukToolStripMenuItem.Size = New Size(311, 28)
         ProdukMasukToolStripMenuItem.Text = "Produk Masuk (pembelian)"
         ' 
         ' ProdukKeluarpenjualanToolStripMenuItem
         ' 
         ProdukKeluarpenjualanToolStripMenuItem.Name = "ProdukKeluarpenjualanToolStripMenuItem"
-        ProdukKeluarpenjualanToolStripMenuItem.Size = New Size(269, 26)
+        ProdukKeluarpenjualanToolStripMenuItem.Size = New Size(311, 28)
         ProdukKeluarpenjualanToolStripMenuItem.Text = "Produk Keluar (penjualan)"
         ' 
         ' LaporanToolStripMenuItem
         ' 
         LaporanToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {HarianToolStripMenuItem, BulananToolStripMenuItem, TahunanToolStripMenuItem})
         LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        LaporanToolStripMenuItem.Size = New Size(77, 24)
+        LaporanToolStripMenuItem.Size = New Size(89, 27)
         LaporanToolStripMenuItem.Text = "Laporan"
         ' 
         ' HarianToolStripMenuItem
         ' 
         HarianToolStripMenuItem.Name = "HarianToolStripMenuItem"
-        HarianToolStripMenuItem.Size = New Size(146, 26)
+        HarianToolStripMenuItem.Size = New Size(161, 28)
         HarianToolStripMenuItem.Text = "Harian"
         ' 
         ' BulananToolStripMenuItem
         ' 
         BulananToolStripMenuItem.Name = "BulananToolStripMenuItem"
-        BulananToolStripMenuItem.Size = New Size(146, 26)
+        BulananToolStripMenuItem.Size = New Size(161, 28)
         BulananToolStripMenuItem.Text = "Bulanan"
         ' 
         ' TahunanToolStripMenuItem
         ' 
         TahunanToolStripMenuItem.Name = "TahunanToolStripMenuItem"
-        TahunanToolStripMenuItem.Size = New Size(146, 26)
+        TahunanToolStripMenuItem.Size = New Size(161, 28)
         TahunanToolStripMenuItem.Text = "Tahunan"
         ' 
         ' UtilityToolStripMenuItem
         ' 
         UtilityToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {TentangAplikasiToolStripMenuItem, ToolStripMenuItem2, GantiPasswordToolStripMenuItem})
         UtilityToolStripMenuItem.Name = "UtilityToolStripMenuItem"
-        UtilityToolStripMenuItem.Size = New Size(62, 24)
+        UtilityToolStripMenuItem.Size = New Size(74, 27)
         UtilityToolStripMenuItem.Text = "Utility"
         ' 
         ' TentangAplikasiToolStripMenuItem
         ' 
         TentangAplikasiToolStripMenuItem.Name = "TentangAplikasiToolStripMenuItem"
-        TentangAplikasiToolStripMenuItem.Size = New Size(201, 26)
+        TentangAplikasiToolStripMenuItem.Size = New Size(227, 28)
         TentangAplikasiToolStripMenuItem.Text = "Tentang Aplikasi"
         ' 
         ' ToolStripMenuItem2
         ' 
         ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        ToolStripMenuItem2.Size = New Size(198, 6)
+        ToolStripMenuItem2.Size = New Size(224, 6)
         ' 
         ' GantiPasswordToolStripMenuItem
         ' 
         GantiPasswordToolStripMenuItem.Name = "GantiPasswordToolStripMenuItem"
-        GantiPasswordToolStripMenuItem.Size = New Size(201, 26)
+        GantiPasswordToolStripMenuItem.Size = New Size(227, 28)
         GantiPasswordToolStripMenuItem.Text = "Ganti Password"
         ' 
         ' StatusStrip1
         ' 
         StatusStrip1.ImageScalingSize = New Size(20, 20)
         StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1, ToolStripStatusLabel3, ToolStripStatusLabel5, ToolStripStatusLabel6})
-        StatusStrip1.Location = New Point(0, 642)
+        StatusStrip1.Location = New Point(0, 692)
         StatusStrip1.Name = "StatusStrip1"
-        StatusStrip1.Size = New Size(1169, 26)
+        StatusStrip1.Size = New Size(869, 26)
         StatusStrip1.TabIndex = 15
         StatusStrip1.Text = "StatusStrip1"
         ' 
@@ -440,12 +441,12 @@ Partial Class Form1
         ToolStripStatusLabel6.Size = New Size(85, 20)
         ToolStripStatusLabel6.Text = "2025-01-25"
         ' 
-        ' Form1
+        ' FormUtama
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.WhiteSmoke
-        ClientSize = New Size(1169, 668)
+        ClientSize = New Size(869, 718)
         Controls.Add(StatusStrip1)
         Controls.Add(Label8)
         Controls.Add(lbl_generate_otomatis)
@@ -471,7 +472,7 @@ Partial Class Form1
         Controls.Add(MenuStrip1)
         IsMdiContainer = True
         MainMenuStrip = MenuStrip1
-        Name = "Form1"
+        Name = "FormUtama"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         WindowState = FormWindowState.Maximized
