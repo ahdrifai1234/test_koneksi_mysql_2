@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a0i9pUMG5FU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\test_koneksi_mysql_2.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AHMAD RIFAI\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\AHMAD RIFAI\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\AHMAD RIFAI\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
