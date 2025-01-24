@@ -267,4 +267,22 @@ Public Class Form1
     Private Sub lbl_generate_otomatis_Click(sender As Object, e As EventArgs) Handles lbl_generate_otomatis.Click, Label8.Click
 
     End Sub
+
+    Private Sub ExiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExiToolStripMenuItem.Click
+        End
+    End Sub
+
+    Private Sub DataProdukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataProdukToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ToolStripStatusLabel1_Click(sender As Object, e As EventArgs) Handles ToolStripStatusLabel1.Click
+
+    End Sub
+
+    Private Sub LoginToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem1.Click
+
+        FormLogin.Show()
+
+    End Sub
 End Class

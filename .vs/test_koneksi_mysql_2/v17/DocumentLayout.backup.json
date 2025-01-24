@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|c:\\users\\ahmad rifai\\source\\repos\\test_koneksi_mysql_2\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|solutionrelative:formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|c:\\users\\ahmad rifai\\source\\repos\\test_koneksi_mysql_2\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|solutionrelative:formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|c:\\users\\ahmad rifai\\source\\repos\\test_koneksi_mysql_2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{24D2E340-B69A-472A-A8BE-2B2A34BC5FC6}|test_koneksi_mysql_2.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -18,24 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.vb",
+              "DocumentMoniker": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\FormLogin.vb",
+              "RelativeDocumentMoniker": "FormLogin.vb",
+              "ToolTip": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\FormLogin.vb*",
+              "RelativeToolTip": "FormLogin.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-24T09:40:25.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormLogin.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\FormLogin.vb",
+              "RelativeDocumentMoniker": "FormLogin.vb",
+              "ToolTip": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\FormLogin.vb [Design]*",
+              "RelativeToolTip": "FormLogin.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-24T09:39:32.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwE0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAoBAAAAAAAAAIAywBwBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-01-23T14:45:31.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\AHMAD RIFAI\\source\\repos\\test_koneksi_mysql_2\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
