@@ -27,7 +27,6 @@ Partial Class FormUtama
         LoginToolStripMenuItem1 = New ToolStripMenuItem()
         LogoutToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem1 = New ToolStripSeparator()
-        ExiToolStripMenuItem = New ToolStripMenuItem()
         LoginToolStripMenuItem = New ToolStripMenuItem()
         UserToolStripMenuItem = New ToolStripMenuItem()
         TransaksiToolStripMenuItem = New ToolStripMenuItem()
@@ -42,6 +41,7 @@ Partial Class FormUtama
         TentangAplikasiToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem2 = New ToolStripSeparator()
         GantiPasswordToolStripMenuItem = New ToolStripMenuItem()
+        KeluarToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -50,7 +50,7 @@ Partial Class FormUtama
         MenuStrip1.BackColor = SystemColors.ButtonShadow
         MenuStrip1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         MenuStrip1.ImageScalingSize = New Size(20, 20)
-        MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, LoginToolStripMenuItem, TransaksiToolStripMenuItem, LaporanToolStripMenuItem, UtilityToolStripMenuItem})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, LoginToolStripMenuItem, TransaksiToolStripMenuItem, LaporanToolStripMenuItem, UtilityToolStripMenuItem, KeluarToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Size = New Size(800, 31)
@@ -59,7 +59,7 @@ Partial Class FormUtama
         ' 
         ' FileToolStripMenuItem
         ' 
-        FileToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LoginToolStripMenuItem1, LogoutToolStripMenuItem, ToolStripMenuItem1, ExiToolStripMenuItem})
+        FileToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LoginToolStripMenuItem1, LogoutToolStripMenuItem, ToolStripMenuItem1})
         FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         FileToolStripMenuItem.Size = New Size(52, 27)
         FileToolStripMenuItem.Text = "File"
@@ -68,25 +68,19 @@ Partial Class FormUtama
         ' 
         LoginToolStripMenuItem1.Name = "LoginToolStripMenuItem1"
         LoginToolStripMenuItem1.ShortcutKeys = Keys.F5
-        LoginToolStripMenuItem1.Size = New Size(168, 28)
+        LoginToolStripMenuItem1.Size = New Size(224, 28)
         LoginToolStripMenuItem1.Text = "Login"
         ' 
         ' LogoutToolStripMenuItem
         ' 
         LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        LogoutToolStripMenuItem.Size = New Size(168, 28)
+        LogoutToolStripMenuItem.Size = New Size(224, 28)
         LogoutToolStripMenuItem.Text = "Logout"
         ' 
         ' ToolStripMenuItem1
         ' 
         ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        ToolStripMenuItem1.Size = New Size(165, 6)
-        ' 
-        ' ExiToolStripMenuItem
-        ' 
-        ExiToolStripMenuItem.Name = "ExiToolStripMenuItem"
-        ExiToolStripMenuItem.Size = New Size(168, 28)
-        ExiToolStripMenuItem.Text = "Exit"
+        ToolStripMenuItem1.Size = New Size(221, 6)
         ' 
         ' LoginToolStripMenuItem
         ' 
@@ -175,6 +169,12 @@ Partial Class FormUtama
         GantiPasswordToolStripMenuItem.Size = New Size(227, 28)
         GantiPasswordToolStripMenuItem.Text = "Ganti Password"
         ' 
+        ' KeluarToolStripMenuItem
+        ' 
+        KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
+        KeluarToolStripMenuItem.Size = New Size(75, 27)
+        KeluarToolStripMenuItem.Text = "Keluar"
+        ' 
         ' FormUtama
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -197,7 +197,6 @@ Partial Class FormUtama
     Friend WithEvents LoginToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents LogoutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As ToolStripSeparator
-    Friend WithEvents ExiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents UserToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TransaksiToolStripMenuItem As ToolStripMenuItem
@@ -212,4 +211,5 @@ Partial Class FormUtama
     Friend WithEvents TentangAplikasiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripSeparator
     Friend WithEvents GantiPasswordToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KeluarToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -4,7 +4,7 @@
         FormLogin.Show()
     End Sub
 
-    Private Sub ExiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExiToolStripMenuItem.Click
+    Private Sub ExiToolStripMenuItem_Click(sender As Object, e As EventArgs)
         End
     End Sub
 
@@ -21,5 +21,9 @@
     Private Sub ProdukKeluarpenjualanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProdukKeluarpenjualanToolStripMenuItem.Click
         FormTransaksiKeluar.MdiParent = Me
         FormTransaksiKeluar.Show()
+    End Sub
+
+    Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
+        End
     End Sub
 End Class

@@ -276,25 +276,17 @@ Public Class FormBarang
         End If
     End Sub
 
-    Private Sub lbl_generate_otomatis_Click(sender As Object, e As EventArgs) Handles lbl_generate_otomatis.Click, Label8.Click
+    Private Sub btn_input_penjualan_Click(sender As Object, e As EventArgs) Handles btn_input_penjualan.Click
+        InitializeComponent()
+        If Me.TopLevel Then
+            Me.IsMdiContainer = True
+        Else
+            MessageBox.Show("This form must be a top-level form to be an MDI container.")
+        End If
+    End Sub
+
+    Private Sub txt_lokasi_rak_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txt_lokasi_rak.SelectedIndexChanged
 
     End Sub
 
-    Private Sub ExiToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        End
-    End Sub
-
-    Private Sub DataProdukToolStripMenuItem_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub ToolStripStatusLabel1_Click(sender As Object, e As EventArgs) Handles ToolStripStatusLabel1.Click
-
-    End Sub
-
-    Private Sub LoginToolStripMenuItem1_Click(sender As Object, e As EventArgs)
-
-        FormLogin.Show()
-
-    End Sub
 End Class

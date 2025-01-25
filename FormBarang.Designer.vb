@@ -36,7 +36,7 @@ Partial Class FormBarang
         Label5 = New Label()
         Label6 = New Label()
         Label7 = New Label()
-        btn_clear_form = New Button()
+        btn_input_stok = New Button()
         btn_input = New Button()
         btn_edit = New Button()
         btn_hapus = New Button()
@@ -50,6 +50,7 @@ Partial Class FormBarang
         ToolStripStatusLabel5 = New ToolStripStatusLabel()
         ToolStripStatusLabel6 = New ToolStripStatusLabel()
         DataBarang = New GroupBox()
+        btn_input_penjualan = New Button()
         GroupBox1 = New GroupBox()
         GroupBox2 = New GroupBox()
         GroupBox3 = New GroupBox()
@@ -66,7 +67,7 @@ Partial Class FormBarang
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle1.BackColor = SystemColors.Window
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9.0F)
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F)
         DataGridViewCellStyle1.ForeColor = SystemColors.ControlText
         DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
@@ -75,7 +76,7 @@ Partial Class FormBarang
         DataGridView1.Location = New Point(19, 26)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(931, 234)
+        DataGridView1.Size = New Size(931, 328)
         DataGridView1.TabIndex = 1
         ' 
         ' txt_kode_barang
@@ -116,12 +117,12 @@ Partial Class FormBarang
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.BackColor = SystemColors.ActiveBorder
+        Label1.BackColor = SystemColors.ControlLight
         Label1.BorderStyle = BorderStyle.Fixed3D
-        Label1.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(150, 23)
+        Label1.Font = New Font("Consolas", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(215, 23)
         Label1.Name = "Label1"
-        Label1.Size = New Size(495, 40)
+        Label1.Size = New Size(467, 35)
         Label1.TabIndex = 4
         Label1.Text = "DATA BARANG TOKO KOMPUTER JAYA"
         ' 
@@ -185,15 +186,15 @@ Partial Class FormBarang
         Label7.TabIndex = 5
         Label7.Text = "TANGGAL INPUT"
         ' 
-        ' btn_clear_form
+        ' btn_input_stok
         ' 
-        btn_clear_form.BackColor = Color.Gainsboro
-        btn_clear_form.Location = New Point(705, 66)
-        btn_clear_form.Name = "btn_clear_form"
-        btn_clear_form.Size = New Size(110, 127)
-        btn_clear_form.TabIndex = 10
-        btn_clear_form.Text = "CLEAR"
-        btn_clear_form.UseVisualStyleBackColor = False
+        btn_input_stok.BackColor = Color.Gainsboro
+        btn_input_stok.Location = New Point(719, 60)
+        btn_input_stok.Name = "btn_input_stok"
+        btn_input_stok.Size = New Size(110, 68)
+        btn_input_stok.TabIndex = 10
+        btn_input_stok.Text = "Input Stok"
+        btn_input_stok.UseVisualStyleBackColor = False
         ' 
         ' btn_input
         ' 
@@ -237,6 +238,8 @@ Partial Class FormBarang
         ' 
         ' txt_lokasi_rak
         ' 
+        txt_lokasi_rak.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        txt_lokasi_rak.AutoCompleteSource = AutoCompleteSource.ListItems
         txt_lokasi_rak.FormattingEnabled = True
         txt_lokasi_rak.Items.AddRange(New Object() {"RAK 1", "RAK 2", "RAK 3", "RAK 4", "RAK 5"})
         txt_lokasi_rak.Location = New Point(285, 192)
@@ -268,7 +271,7 @@ Partial Class FormBarang
         ' 
         StatusStrip1.ImageScalingSize = New Size(20, 20)
         StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1, ToolStripStatusLabel3, ToolStripStatusLabel5, ToolStripStatusLabel6})
-        StatusStrip1.Location = New Point(0, 699)
+        StatusStrip1.Location = New Point(0, 850)
         StatusStrip1.Name = "StatusStrip1"
         StatusStrip1.Size = New Size(1014, 26)
         StatusStrip1.TabIndex = 15
@@ -306,7 +309,8 @@ Partial Class FormBarang
         DataBarang.Controls.Add(Label4)
         DataBarang.Controls.Add(lbl_generate_otomatis)
         DataBarang.Controls.Add(Label7)
-        DataBarang.Controls.Add(btn_clear_form)
+        DataBarang.Controls.Add(btn_input_penjualan)
+        DataBarang.Controls.Add(btn_input_stok)
         DataBarang.Controls.Add(txt_lokasi_rak)
         DataBarang.Controls.Add(Label5)
         DataBarang.Controls.Add(Label6)
@@ -322,12 +326,22 @@ Partial Class FormBarang
         DataBarang.TabStop = False
         DataBarang.Text = "Form Data Barang"
         ' 
+        ' btn_input_penjualan
+        ' 
+        btn_input_penjualan.BackColor = Color.Gainsboro
+        btn_input_penjualan.Location = New Point(719, 175)
+        btn_input_penjualan.Name = "btn_input_penjualan"
+        btn_input_penjualan.Size = New Size(110, 61)
+        btn_input_penjualan.TabIndex = 10
+        btn_input_penjualan.Text = "Input Penjualan"
+        btn_input_penjualan.UseVisualStyleBackColor = False
+        ' 
         ' GroupBox1
         ' 
         GroupBox1.Controls.Add(DataGridView1)
         GroupBox1.Location = New Point(48, 487)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(952, 182)
+        GroupBox1.Size = New Size(952, 360)
         GroupBox1.TabIndex = 17
         GroupBox1.TabStop = False
         GroupBox1.Text = "Bagian List Barang"
@@ -356,10 +370,10 @@ Partial Class FormBarang
         ' 
         ' FormBarang
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.WhiteSmoke
-        ClientSize = New Size(1014, 725)
+        ClientSize = New Size(1014, 876)
         Controls.Add(GroupBox3)
         Controls.Add(GroupBox2)
         Controls.Add(GroupBox1)
@@ -394,7 +408,7 @@ Partial Class FormBarang
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents btn_clear_form As Button
+    Friend WithEvents btn_input_stok As Button
     Friend WithEvents btn_input As Button
     Friend WithEvents btn_edit As Button
     Friend WithEvents btn_hapus As Button
@@ -411,5 +425,6 @@ Partial Class FormBarang
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents btn_input_penjualan As Button
 
 End Class

@@ -129,6 +129,7 @@ Partial Class FormLogin
         ClientSize = New Size(800, 698)
         Controls.Add(GroupBox1)
         MaximizeBox = False
+        MinimizeBox = False
         Name = "FormLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FormLogin"
